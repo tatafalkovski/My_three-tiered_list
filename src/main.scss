@@ -1,0 +1,31 @@
+@import "normalize.scss";
+@import "header.scss";
+@import "menu.scss";
+@import "footer.scss";
+
+h1 {
+  color: #5a366e;
+  font-size: 70px;
+  margin: 10px 0;
+  @media screen and (max-width: 1024px) {
+    font-size: 40px;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+h2 {
+  color: #5a366e;
+  margin: 10px 0;
+  text-transform: uppercase;
+  @media screen and (max-width: 1024px) {
+    font-size: 27px;
+    text-align: center;
+    font-weight: normal;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
